@@ -77,8 +77,9 @@ figure {
   padding-bottom: 40px;
   float: left;
   width: 300px;
+  height: 100%;
   position: fixed;
-  overflow-y: scroll;
+  overflow-y: auto;
   z-index: 1001;
   background: #f2f3f7;
   -webkit-transition: 0.5s;
@@ -123,7 +124,8 @@ figure {
     display: block;
     width: 100%; }
     #colorlib-aside #colorlib-main-menu .collapse {
-      display: block !important; }
+      display: block !important; 
+      height: 100% !important;}
     #colorlib-aside #colorlib-main-menu ul {
       text-align: center;
       margin: 0;
@@ -353,6 +355,7 @@ body.offcanvas {
     -o-transform: translateX(0);
     transform: translateX(0);
     width: 300px;
+    height: 100%;
     background: #f2f3f7;
     z-index: 999;
     position: fixed; }
