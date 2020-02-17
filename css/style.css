@@ -338,7 +338,8 @@ figure {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
             color: #fff;
             border: 1px solid #fff;
-            background: transparent !important; }
+            background: transparent !important; 
+            font-weight: 600; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
               background: transparent !important;
               border: 1px solid #fff !important; }
@@ -1321,7 +1322,7 @@ body.offcanvas {
     zoom: 1;
     *display: inline;
     width: 30px;
-    height: 2px;
+    height: 3px;
     color: #000;
     font: bold 14px/.4 Helvetica;
     text-transform: uppercase;
@@ -1333,7 +1334,7 @@ body.offcanvas {
     .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
       content: '';
       width: 30px;
-      height: 2px;
+      height: 3px;
       background: #000;
       position: absolute;
       left: 0;
