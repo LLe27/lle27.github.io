@@ -814,6 +814,12 @@ body.offcanvas {
     .progress-bar.color-6 span {
       color: #4054b2; }
 
+.edu-feature{
+  margin-bottom: 0 !important;}
+
+.edu-feature__desc{
+  margin-top: 10px !important;}
+
 .colorlib-feature {
   text-align: left;
   width: 100%;
